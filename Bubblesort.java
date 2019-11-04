@@ -42,4 +42,10 @@ public static void main(String[] args) {
         }        
         return arr;
     }
+    public int[] swap(int a, int b, int arr[]){
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+        return arr;
+    }
 }
